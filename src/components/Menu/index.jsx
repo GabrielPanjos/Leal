@@ -1,15 +1,10 @@
 import { Link } from "react-router-dom";
 import MenuButton from "./MenuButton";
+import menuOptions from "../../data/MenuOptions";
 
 export default function Menu() {
-  const menuOptions = [
-    { name: "Início", path: "/" },
-    { name: "Sobre", path: "/sobre" },
-    { name: "Contato", path: "/contato" },
-  ];
-
   return (
-    <nav className="flex justify-between items-center w-full pl-60 pr-60">
+    <nav className="flex justify-around items-center w-full ">
       <Link to={"/"}>
         <h1 className="text-text text-[38px] font-semibold">LEAL</h1>
       </Link>
