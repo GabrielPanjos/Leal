@@ -1,0 +1,37 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+* {
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+:root {
+  --color-primary: 139 92 246;
+  --color-primary-hover: 124 58 237;
+
+  --color-background: 2 6 23;
+
+  --color-surface: 15 23 42;
+  --color-surface-light: 30 41 59;
+
+  --color-text: 248 250 252;
+  --color-text-muted: 148 163 184;
+
+  --color-border: 51 65 85;
+}
