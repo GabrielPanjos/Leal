@@ -17,8 +17,16 @@ export default {
         "text-muted": "rgb(var(--color-text-muted) / <alpha-value>)",
 
         border: "rgb(var(--color-border) / <alpha-value>)",
+
+        black: "rgb(var(--color-black) / <alpha-value>)",
+
+        success: "rgb(var(--color-success) / <alpha-value>)",
+        warning: "rgb(var(--color-warning) / <alpha-value>)",
+        error: "rgb(var(--color-error) / <alpha-value>)",
+        info: "rgb(var(--color-info) / <alpha-value>)",
       },
     },
   },
+
   plugins: [],
 };
