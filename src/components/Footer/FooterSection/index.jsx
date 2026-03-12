@@ -13,7 +13,7 @@ export default function FooterSection({ children, links, icons }) {
             return (
               <li key={link.name}>
                 <Link
-                  target="_blank"
+                  target={icons && "_blank"}
                   to={link.path}
                   className="flex items-center gap-2"
                 >

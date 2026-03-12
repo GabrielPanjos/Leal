@@ -29,11 +29,10 @@ const FooterOptions = [
   new FooterOption(
     "Contato",
     [
-      new MenuOption("Youtube", ""),
+      new MenuOption("Youtube", "https://www.youtube.com/@Lealmusiic"),
       new MenuOption("Instagram", "https://www.instagram.com/lealmusics"),
-      new MenuOption("Email", ""),
     ],
-    [FaYoutube, FaInstagram, FaEnvelope],
+    [FaYoutube, FaInstagram],
   ),
 ];
 

@@ -2,7 +2,7 @@ import Menu from "../Menu";
 
 export default function Header() {
   return (
-    <header className="flex justify-center items-center bg-background w-full h-40">
+    <header className="flex justify-center items-center fixed w-full h-30">
       <Menu />
     </header>
   );

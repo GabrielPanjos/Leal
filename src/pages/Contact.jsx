@@ -1,5 +1,5 @@
 import MainTemplate from "../templates/MainTemplate";
 
 export default function Contact() {
-  return <MainTemplate></MainTemplate>;
+  return <MainTemplate><section className="w-full bg-background"></section></MainTemplate>;
 }
